@@ -147,8 +147,8 @@ hr
     height: 10vh;
 }
 .footer-information-signiture img {
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 25%;
 }
 .hematology-footer
 {
