@@ -129,7 +129,7 @@ hr
 }
 .footer
 {
-    width: 85%;
+    width: 100%;
 }
 .footer-information-name
 {
@@ -148,7 +148,7 @@ hr
 }
 .footer-information-signiture img {
     position: relative;
-    top: 25%;
+    top: 30%;
 }
 .hematology-footer
 {
