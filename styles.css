@@ -146,7 +146,7 @@ hr
     position: relative;
     height: 10vh;
 }
-.footer-information-signiture {
+.footer-information-signiture img{
     position: absolute;
     top: 25%
 }
