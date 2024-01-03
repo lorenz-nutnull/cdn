@@ -146,10 +146,6 @@ hr
     position: relative;
     height: 10vh;
 }
-.footer-information-signiture img {
-    position: absolute;
-    top: 50%;
-}
 .hematology-footer
 {
     margin: 35px auto !important;
