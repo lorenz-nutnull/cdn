@@ -1,0 +1,172 @@
+body
+{
+    margin: 10px;
+    overflow-x: hidden;
+    background-color: rgba(211, 211, 211, 0.828);
+}
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+    }
+.main
+{
+    print-color-adjust: exact;
+    background-color: #fff;
+    width: 8.5in;
+    height: 11.5in;
+    display: block;
+    padding: unset;
+    margin: 0 auto;
+}
+.header-img
+{
+    width: 100%;
+}
+.header-img-container
+{
+    padding: unset;
+}
+.header-logo
+{
+    width: 105px;
+    height: 80px;
+    margin: 15px;
+}
+.header-address
+{
+    font-size: 8px;
+    background-color: #020294;
+    color: #fff;
+}
+.qr-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qr-header img
+{
+    width:90%;
+}
+.title
+{
+    text-align: center;
+    font-weight: 700;
+    border-top:2px solid black !important;
+    border-bottom:2px solid black !important;
+    margin-top: 10px;
+    border-left: none !important;
+    border-right: none !important;
+}
+.header-title h3
+{
+    line-height: 1.2;
+    font-size: 18px;
+}
+.header-title label
+{
+    line-height:.7;
+    font-size: 10px;
+}
+.type
+{
+    font-weight: 700;
+    padding-left:35px;
+}
+hr
+{
+    border:1px solid black; 
+    width: 95%; 
+    margin: 10px auto;
+}
+.personalInformation
+{
+    margin-left: 2px;
+}
+.body-content
+{
+    width: 95%;
+    margin: 0 auto;
+}
+.hematology
+{
+    font-size: 12px;
+}
+.radiography-content
+{
+    margin-left: 20px; 
+    width: 95%; 
+    margin-top: 40px;
+}
+.mt-10
+{
+    margin-top: 10px;
+}
+.mt-25
+{
+    margin-top: 20px;
+}
+.radiography
+{
+    font-size: 12px;
+}
+.font-12
+{
+    font-size: 12px;
+}
+.body .body-information
+{
+    font-size: 12px;
+    width: 100%;
+}
+.content-title .top
+{
+    margin-top: 10px;
+}
+.content-title
+{
+    margin-top:40px;
+}
+.footer
+{
+    width: 100%;
+}
+.footer-information-name
+{
+    text-align: center;
+    font-size: 9px;
+}
+.footer-information-title
+{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 900;
+}
+.footer-information-signiture {
+    position: relative;
+    height: 10vh;
+}
+.footer-information-signiture img {
+    position: relative;
+    top: 40%;
+}
+.hematology-footer
+{
+    margin: 35px auto !important;
+}
+.radiography-footer
+{
+    margin:545px auto !important;
+}
+.chest-footer
+{
+    margin:490px auto !important;
+}
+.clinical-footer
+{
+    margin: 120px auto !important;
+}
+.electrolytes-footer
+{
+    margin: 455px auto !important;
+}
