@@ -1,0 +1,154 @@
+
+
+<!-- Print Template -->
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>PDF PRINTING</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lorenz-nutnull/cdn@main/finalStyles.css">
+        </head>
+        <body>
+            <div class="main">
+                <div class="header">
+                    <div class="container-fluid border">
+                        <div class="row header">
+                            <div class="col-14 col-sm-10 header-img-container">
+                                <img src="https://github.com/lorenz-nutnull/cdn/blob/main/Untitled-1.png?raw=true" alt="" class="header-img">
+                            </div>
+                            <div class="col-4 col-sm-2 qr-header">
+                                <img src="https://github.com/lorenz-nutnull/cdn/blob/main/sampleqr.png?raw=true" alt="">
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="container-fluid border bg-primary">
+                        <div class="row header-address">
+                            <div class="col-sm-6 p-2 text-light">
+                                <label>GROUND FLOOR DELINGS BLDG., J. CATOLICO AVENUE, BRGY. LAGAO, GENERAL SANTOS CITY</label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label>TEL. NO. (083) 552-5797 / 09097273357.</label><br>
+                                <label>medzone_dc@yahoo.com.</label>
+                            </div>
+                            <div class="col-4 col-sm-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid p-1 body-information border">
+                        <div class="row personalInformation">
+                            <div class="col-6 col-sm-4">Name: {{CUSTOMERNAME}}</div>
+                            <div class="col-6 col-sm-4">Date: {{SCHEDULEDATE}}</div>
+                            <div class="col-6 col-sm-4">Lab No. {{APPOINTMENTNUMBER}}</div>
+                        </div>
+                        <div class="row personalInformation">
+                            <div class="col-6 col-sm-4">Age: {{AGE}}</div>
+                            <div class="col-6 col-sm-4">Sex: {{GENDER}}</div>
+                            <div class="col-6 col-sm-4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    {{BODY}}
+                </div>
+                <div class="footer clinical-footer" style="position:absolute; bottom:0px;">
+                    <div class="container-fluid p-1 row">
+                        {{ASSIGNED_EMPLOYEES}}
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+
+
+    <!-- Sample Product Templates -->
+    <!-- Lipid Profile -->
+    <div class="container-fluid type font-12 mt-25">
+        <label class="top">LIPID PROFILE</label>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-5 border">
+                Cholesterol
+            </div>
+            <div class="col-12 col-sm-2 border">
+                {{Cholesterol}}
+            </div>
+            <div class="col-12 col-sm-5 border">
+                {{Cholesterol_RANGE_NOT_APPLICABLE}}
+            </div>
+        </div>
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-5 border">
+                TRIGLYCERIDE
+            </div>
+            <div class="col-12 col-sm-2 border">
+                {{TRIGLYCERIDE}}
+            </div>
+            <div class="col-12 col-sm-5 border">
+                {{TRIGLYCERIDE_RANGE_NOT_APPLICABLE}}
+            </div>
+        </div>
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-5 border">
+                HDL
+            </div>
+            <div class="col-12 col-sm-2 border">
+                {{HDL}}
+            </div>
+            <div class="col-12 col-sm-5 border">
+                Female: {{HDL_RANGE_FEMALE}} <br> Male: {{HDL_RANGE_MALE}}
+            </div>
+        </div>
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-5 border">
+                LDL
+            </div>
+            <div class="col-12 col-sm-2 border">
+                {{LDL}}
+            </div>
+            <div class="col-12 col-sm-5 border">
+                {{LDL_RANGE_NOT_APPLICABLE}}
+            </div>
+        </div>
+    </div>
+
+    <!-- Uric Acid Sample -->
+    <div class="container-fluid type font-12">
+        <label class="top">Uric Acid</label>
+    </div>
+    <hr>
+    <div class="container-fluid">
+
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-4 border"> 
+                {{UA}}
+            </div>
+            <div class="col-12 col-sm-8 border"> 
+                Female: {{UA_RANGE_FEMALE}}<br>
+                Male: {{UA_RANGE_MALE}}
+            </div>
+        </div>
+    </div>
+
+    <!-- ALT/SGPT Sample -->
+    <div class="container-fluid type font-12">
+        <label class="top">ALT/SGPT</label>
+    </div>
+    <hr>
+    <div class="container-fluid">
+
+        <div class="row body-content font-12">
+            <div class="col-6 col-sm-4 border"> 
+                {{ALT}}
+            </div>
+            <div class="col-12 col-sm-8 border"> 
+                Female: {{ALT_RANGE_FEMALE}}<br>
+                Male: {{ALT_RANGE_MALE}}
+            </div>
+        </div>
+    </div>
+
