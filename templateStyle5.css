@@ -17,6 +17,10 @@ body
     padding: unset;
     margin: 0 auto;
     position: relative;
+    background-image:url('https://raw.githubusercontent.com/lorenz-nutnull/cdn/main/bg.png'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: 50% 100%;
 }
 .header-img
 {
